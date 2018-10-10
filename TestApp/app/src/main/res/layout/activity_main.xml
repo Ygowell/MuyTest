@@ -13,9 +13,39 @@
         android:text="Deeplink Jump"/>
 
     <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Deeplink Jump_Web"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Deeplink Jump_Ringtone"
+        android:onClick="processDeeplinkJumpRingtone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Deeplink Jump_Detail_Theme"
+        android:onClick="processDeeplinkJumpDetailTheme"/>
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="show full screen dialog"/>
+        android:text="Show full screen dialog"/>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Test singleTask"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Call ExtraLib Method"
+        android:onClick="callExtraLibToast"/>
 </LinearLayout>
