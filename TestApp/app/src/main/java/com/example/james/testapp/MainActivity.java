@@ -92,4 +92,9 @@ public class MainActivity extends AppCompatActivity {
     public void callExtraLibToast(View view) {
         ResUtils.showToast(this, "Call ExtraLib Toast!");
     }
+
+    public void implementLruByArray(View view) {
+        Intent intent = new Intent(this, LruImplementionActivity.class);
+        startActivity(intent);
+    }
 }

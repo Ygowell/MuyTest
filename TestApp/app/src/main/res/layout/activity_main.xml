@@ -48,4 +48,10 @@
         android:layout_height="50dp"
         android:text="Call ExtraLib Method"
         android:onClick="callExtraLibToast"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Use array to implement LRU"
+        android:onClick="implementLruByArray"/>
 </LinearLayout>
